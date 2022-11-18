@@ -4,7 +4,7 @@
 
 from logic import make_empty_board
 from logic import checking_winner
-
+ 
 players = {
     True : "Player 1 (0)",
     False : "Player 2 (X)"

@@ -18,8 +18,7 @@ class TestLogic(unittest.TestCase):
             ['O', 'X', 'X'],
             ['X', 'O', 'O'],
         ]
-        self.assertInEqual(logic.checking_winner(board, 'X'), 'X')
-
+       self.assertEqual(logic.checking_winner(board,'O'), None)
     def test_is_player_win_O(self):
         board = [['O', 'O', 'X'],
                 [None, 'O', 'X'],
